@@ -30,7 +30,6 @@ class App extends Component {
   };
 
   handleFilterProducts = (e) => {
-    // console.log("=====>", e.target.value);
     const size = e.target.value;
     if (e.target.value === "") {
       this.setState({ size: size, products: data.products });  
@@ -46,7 +45,6 @@ class App extends Component {
   };
 
   handleSortProducts = (e) => {
-    // console.log("=====>", e.target.value);
     const sort = e.target.value;
     this.setState((state) => ({
       sort: sort,
