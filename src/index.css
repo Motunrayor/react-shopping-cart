@@ -1,0 +1,41 @@
+@import url("https://fonts.googlepis.com/css2?family=Montserrat&display=swap");
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box ;
+}
+
+body, #root {
+  margin: 0;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+
+header {
+   grid-area: header;
+   background-color: #008884;
+   color: #ffffff;
+   align-items: center;
+   padding: 0 20px;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #008884;
+  color: #ffffff;
+}
+
+body, input, select, textarea, button {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}

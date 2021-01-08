@@ -1,0 +1,52 @@
+{
+   "products":[
+      {
+         "id": "1",  
+         "image": "/images/dress1.png", 
+         "product_name": "Dress1", 
+         "description": "This is for all latest trends for dress1", 
+         "price": "20", 
+         "availableSizes": ["S", "L","XL", "XXL"]
+      },
+      {
+         "id": "2",  
+         "image": "/images/dress2.jpeg", 
+         "product_name": "Dress2", 
+         "description": "This is for all latest trends for dress2", 
+         "price": "30.5", 
+         "availableSizes": ["XS","M","XXL"]
+      },
+      {
+         "id": "3",  
+         "image": "/images/dress3.jpeg", 
+         "product_name": "Dress3", 
+         "description": "This is for all latest trends for dress3", 
+         "price": "10.4", 
+         "availableSizes": ["XS", "L", "XL", "XXL"]
+      },
+      {
+         "id": "4",  
+         "image": "/images/dress4.jpg", 
+         "product_name": "Dress4", 
+         "description": "This is for all latest trends for dress4", 
+         "price": "80", 
+         "availableSizes": ["XS","XL","XXL"]
+      },
+      {
+         "id": "5",  
+         "image": "/images/dress5.jpeg", 
+         "product_name": "Dress5", 
+         "description": "This is for all latest trends for dress5", 
+         "price": "20.5", 
+         "availableSizes": ["M", "XL", "XXL"]
+      },
+      {
+         "id": "6",  
+         "image": "/images/dress6.jpeg", 
+         "product_name": "Dress6", 
+         "description": "This is for all latest trends for dress6", 
+         "price": "15", 
+         "availableSizes": ["XS","S", "M", "XL", "XXL"]
+      }
+   ]
+}
