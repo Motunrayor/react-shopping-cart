@@ -8,8 +8,7 @@ const CartItem = () =>{
         <div className="sidebar">Cart items</div>
         <ul>
            <li>
-              <div>
-              </div>
+             
            </li>
         </ul>
       </div>
